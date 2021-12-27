@@ -1,5 +1,5 @@
 class Lgbd < Formula
-  head "https://github.com/hoddy3190/anylang-build"
+  head "https://github.com/hoddy3190/anylang-build", :using => :git
 
   def install
     prefix.install Dir["envs/"], "lgbd.sh"
